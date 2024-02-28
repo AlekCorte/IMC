@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cálculo IMC</title>
+</head>
+<body>
+    <main>
+        <div class="imagemIMC">
+            <img src="./css/img/imc.svg" alt="treino" width="500px">
+        </div>
+        <div class="form">
+            <form action="../model/imc.php" method="POST" class="form">
+                <h1>Cálculo IMC</h1>
+
+                <div class="camposForm">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" class="input">
+                </div>
+                <div class="camposForm">
+                    <label for="nome">Altura:</label>
+                    <input type="text" name="altura" id="altura" class="input">
+                </div>
+                <div class="camposForm">
+                    <label for="peso">Peso:</label>
+                    <input type="text" name="peso" id="peso" class="input">
+                </div>
+                <div class="botaoForm">
+                    <input type="submit" value="Calcular" class="botao">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
